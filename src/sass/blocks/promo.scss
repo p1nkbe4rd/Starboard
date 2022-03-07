@@ -1,0 +1,46 @@
+.promo {
+    padding: 30px 0 225px 0;
+    min-height: 896px;
+    clip-path: polygon(0 0, 100% 0, 100% 66.51785714285714%, 0% 100%);
+    background-color: #000000;
+    &__title {
+        margin-top: 165px;
+        max-width: 656px;
+        font-weight: 600;
+        font-size: rem(54);
+        line-height: relativeUnit(65, 54);
+        letter-spacing: 1.48685px;
+        color: #FFFFFF;
+    }
+    &__descr {
+        margin-top: 24px;
+        max-width: 724px;
+        font-size: rem(20);
+        line-height: relativeUnit(32, 20);
+        letter-spacing: 0.48705px;
+        color: #FFFFFF;
+        opacity: 0.75;
+    }
+    &__form {
+        display: flex;
+        margin-top: 53px;
+        input {
+            margin-right: 18px;
+            padding-left: 24px;
+            width: 356px;
+            height: 58px;
+            border: 0;
+            border-radius: 5px;
+        }
+    }
+    &__sub-link {
+        display: block;
+        margin-top: 14px;
+        font-size: rem(14);
+        line-height: relativeUnit(21, 14);
+        letter-spacing: 0.457602px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        text-decoration: none;
+    }
+}

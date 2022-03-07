@@ -1,0 +1,7 @@
+@function rem($size) {
+    @return calc($size / 16) + rem;
+}
+
+@function relativeUnit($first, $second) {
+    @return calc($first / $second);
+}

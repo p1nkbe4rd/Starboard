@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    &__logo {
+        margin-right: 303px;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        margin-right: 112px;
+    }
+    &__list {
+        list-style-type: none;
+        display: flex;
+        gap: 55px;
+    }
+    &__item {
+        font-size: rem(16);
+        line-height: relativeUnit(24, 16);
+        letter-spacing: 0.558529px;
+        opacity: 0.8;
+    }
+    &__link {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
