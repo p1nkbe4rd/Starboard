@@ -1,19 +1,16 @@
 .header {
     display: flex;
-    &__logo {
-        margin-right: 303px;
-    }
+    justify-content: space-between;
     &__menu {
         display: flex;
         align-items: center;
-        margin-right: 112px;
     }
     &__list {
-        list-style-type: none;
         display: flex;
-        gap: 55px;
+        list-style-type: none;
     }
     &__item {
+        margin: 0 27.5px;
         font-size: rem(16);
         line-height: relativeUnit(24, 16);
         letter-spacing: 0.558529px;

@@ -5,3 +5,7 @@
 @function relativeUnit($first, $second) {
     @return calc($first / $second);
 }
+
+@function percent($first, $second) {
+    @return calc($first * 100 / $second) * 1%;
+}

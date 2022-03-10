@@ -12,11 +12,13 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1170px;
+    padding: 0 30px;
+    max-width: $container;
 }
 
 @import "blocks/logos";
 @import "blocks/buttons";
+@import "blocks/gradients";
 @import "blocks/promo";
 @import "blocks/header";
 
