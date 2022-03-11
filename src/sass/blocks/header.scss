@@ -4,6 +4,8 @@
     &__menu {
         display: flex;
         align-items: center;
+        flex-basis: 58%;
+        justify-content: flex-end;
     }
     &__list {
         display: flex;
