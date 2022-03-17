@@ -1,10 +1,12 @@
 .promo {
     min-height: 896px;
-    clip-path: polygon(0 0, 100% 0, 100% 66.51785714285714%, 0% 100%);
-    background-color: #000000;
-    padding: 30px 0 225px 0;
-    position: relative;
     overflow: hidden;
+    position: relative;
+    &__wrapper {
+        clip-path: polygon(0 0, 100% 0, 100% 66.51785714285714%, 0% 100%);
+        background-color: #000000;
+        padding: 30px 0 225px 0;
+    }
     &__container {
         position: relative;
     }
@@ -47,5 +49,87 @@
         color: #FFFFFF;
         opacity: 0.6;
         text-decoration: none;
+    }
+    &__gradient-block {
+        position: absolute;
+        &_first {
+            width: 820px;
+            height: 938px;
+            left: -378px;
+            top: 165px;
+        }
+        &_second {
+            width: 976px;
+            height: 1149px;
+            left: 0px;
+            top: -252px;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+        }
+        &_third {
+            width: 914px;
+            height: 1237px;
+            right: -72px;
+            top: -192px;
+        }
+    }
+    &__gradient {
+        &_purple {
+            background: linear-gradient(180deg, rgba(0, 194, 255, 0.4) 0%, #FF29C3 100%);
+            border-radius: 100%;
+            position: absolute;
+            &_first {
+                width: 820px;
+                height: 820px;
+                filter: blur(200px);
+            }
+            &_second {
+                width: 976px;
+                height: 976px;
+                bottom: 0;
+                filter: blur(400px);
+                transform: matrix(1, 0, 0, -1, 0, 0);
+            }
+            &_third {
+                width: 914px;
+                height: 914px;
+                bottom: 0;
+                filter: blur(400px);
+            }
+        }
+        &_blue {
+            background: linear-gradient(180deg, rgba(24, 75, 255, 0) 0%, #174AFF 100%);
+            position: absolute;
+            &_first {
+                width: 394px;
+                height: 559px;
+                left: 213px;
+                bottom: 0;
+                filter: blur(200px);
+            }
+            &_second {
+                width: 578.51px;
+                height: 820.78px;
+                left: 84.75px;
+                filter: blur(200px);
+                transform: matrix(1, 0, 0, -1, 0, 0);
+            }
+            &_third {
+                width: 640px;
+                height: 909px;
+                right: -38px;
+                filter: blur(200px);
+                transform: matrix(1, 0, 0, -1, 0, 0);
+            }
+        }
+    }
+    &__window-big {
+        position: absolute;
+        right: -136px;
+        top: 227px;
+    }
+    &__window-small {
+        position: absolute;
+        top: 564px;
+        right: 242px;
     }
 }

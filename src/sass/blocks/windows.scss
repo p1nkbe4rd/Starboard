@@ -1,0 +1,42 @@
+.window-big {
+    width: 659px;
+    height: 546px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    &__dots {
+        display: flex;
+        position: absolute;
+        width: 39px;
+        justify-content: space-between;
+        left: 14px;
+        top: 15px;
+    }
+    &__dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 100%;
+        background: rgba(255, 255, 255, 0.6);
+    }
+    img {
+        position: absolute;
+        width: 515px;
+        height: 500px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        bottom: 11px;
+        left: 8px;
+    }
+}
+.window-small {
+    width: 420px;
+    height: 271px;
+    background: rgba(209, 209, 209, 0.5);
+    box-shadow: 0px 20px 40px rgba(124, 124, 124, 0.1);
+    border-radius: 13px;
+    img {
+        position: absolute;
+        bottom: 8.29px;
+        left: 8.02px;
+        border-radius: 10px
+    }
+}
