@@ -124,12 +124,12 @@
     }
     &__window-big {
         position: absolute;
-        right: -136px;
+        left: percent(917, 1440);
         top: 227px;
     }
     &__window-small {
         position: absolute;
         top: 564px;
-        right: 242px;
+        left: percent(778, 1440)
     }
 }

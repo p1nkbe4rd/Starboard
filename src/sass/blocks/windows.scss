@@ -1,8 +1,9 @@
 .window-big {
-    width: 659px;
-    height: 546px;
+    width: 987px;
+    height: 571px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 12px;
+    padding: 0 8px 11px 8px;
     &__dots {
         display: flex;
         position: absolute;
@@ -19,12 +20,7 @@
     }
     img {
         position: absolute;
-        width: 515px;
-        height: 500px;
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-        bottom: 11px;
-        left: 8px;
+        bottom: 11px
     }
 }
 .window-small {
