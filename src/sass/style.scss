@@ -11,8 +11,9 @@
 }
 
 .container {
+    padding: 0 $safePadding;
     margin: 0 auto;
-    max-width: $container + $safePadding;
+    max-width: $container + (2 * $safePadding);
 }
 
 @import "blocks/logos";

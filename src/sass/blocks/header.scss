@@ -4,15 +4,16 @@
     &__menu {
         display: flex;
         align-items: center;
-        flex-basis: 58%;
+        flex-basis: percent(675, 1172);
         justify-content: flex-end;
     }
     &__list {
         display: flex;
         list-style-type: none;
+        flex-basis: percent(481, 675);
+        justify-content:space-around;
     }
     &__item {
-        margin: 0 27.5px;
         font-size: rem(16);
         line-height: relativeUnit(24, 16);
         letter-spacing: 0.558529px;
