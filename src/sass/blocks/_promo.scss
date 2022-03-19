@@ -55,20 +55,19 @@
         &_first {
             width: 820px;
             height: 938px;
-            left: -378px;
+            right: percent(998, 1440);
             top: 165px;
         }
         &_second {
             width: 976px;
             height: 1149px;
-            left: 0px;
+            right: percent(464, 1440);
             top: -252px;
-            transform: matrix(1, 0, 0, -1, 0, 0);
         }
         &_third {
             width: 914px;
             height: 1237px;
-            right: -72px;
+            left: percent(834, 1440);
             top: -192px;
         }
     }
@@ -116,7 +115,7 @@
             &_third {
                 width: 640px;
                 height: 909px;
-                right: -38px;
+                right: 38px;
                 filter: blur(200px);
                 transform: matrix(1, 0, 0, -1, 0, 0);
             }

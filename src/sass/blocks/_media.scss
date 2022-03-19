@@ -1,0 +1,21 @@
+@media (max-width: 1140px) {
+    .promo {
+        &__window-big {
+            display: none;
+        }
+        &__window-small {
+            display: none;
+        }
+        &__title {
+            max-width: 100%;
+        }
+    }
+    .header {
+        &__menu {
+            justify-content: center;
+        }
+        &__list {
+            flex-basis: 100%;
+        }
+    }
+}
