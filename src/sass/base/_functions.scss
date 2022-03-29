@@ -9,3 +9,10 @@
 @function percent($first, $second) {
     @return calc($first * 100 / $second) * 1%;
 }
+
+@function adaptiveFontSize($f-min, $f-max, $v-min, $v-max) {
+    $k: relativeUnit(($f-max - $f-min), ($v-max - $v-min));
+    $b: $f-min - $k * $v-min;
+    $b: rem($b);
+    @return calc( $k * 100vw + $b );
+}

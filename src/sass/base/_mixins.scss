@@ -1,0 +1,12 @@
+@mixin adaptiveFontSize($f-min, $f-max, $w-min, $w-max, $fallback: false) {
+    font-size: rem($f-min);
+    @media (min-width: ($w-min + px)) {
+      @if ($fallback) {
+        font-size: rem($fallback);
+      }
+      font-size: adaptiveFontSize($f-min, $f-max, $w-min, $w-max);  
+    }
+    @media (min-width: ($w-max + px)) {
+      font-size: rem($f-max);
+    }
+  }

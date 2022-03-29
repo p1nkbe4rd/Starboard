@@ -1,17 +1,20 @@
 .header {
     display: flex;
     justify-content: space-between;
-    &__menu {
-        display: flex;
-        align-items: center;
-        flex-basis: percent(675, 1172);
-        justify-content: flex-end;
+    &__burger {
+        display: none;
     }
-    &__list {
+    &__nav {
+        align-items: center;
         display: flex;
+        justify-content: space-between;
+        flex-basis: percent(701, 1172);
+    }
+    &__menu {
         list-style-type: none;
-        flex-basis: percent(481, 675);
-        justify-content:space-around;
+        display: flex;
+        flex-basis: percent(426, 701);
+        justify-content: space-between;
     }
     &__item {
         font-size: rem(16);
