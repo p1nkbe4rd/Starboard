@@ -1,0 +1,21 @@
+.management {
+    padding-top: 143px;
+    &__header {
+        max-width: 518px;
+        font-weight: 600;
+        font-size: rem(34);
+        line-height: relativeUnit(52,34);
+        letter-spacing: 1.11132px;
+        color: #363636;
+    }
+    &__subheader {
+        margin-top: 14px;
+        font-weight: 500;
+        font-size: rem(20);
+        line-height: relativeUnit(30,20);
+        letter-spacing: 0.653717px;
+        color: #363636;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+}
